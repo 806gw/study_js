@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./attendanceList.js" defer></script>
+    <link rel="stylesheet" href="./attendanceList.css" />
+  </head>
+  <body>
+    <div class="top-container">
+      <div class="search-container">
+        <input type="date" id="search-date" />
+        <button id="search-btn">검색</button>
+      </div>
+      <div class="invite-container">
+        <input type="text" id="invite-user-id" placeholder="유저아이디" />
+        <button id="invite-btn">초대</button>
+      </div>
+    </div>
+    <table class="attendance-table">
+      <thead>
+        <tr>
+          <th>이름(아이디)</th>
+          <th>출석여부</th>
+          <th>부가설명</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

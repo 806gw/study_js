@@ -1,0 +1,28 @@
+body {
+  background-color: #1CBC9B;
+}
+
+.box {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  width: 350px;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: none;
+}
+
+button {
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+

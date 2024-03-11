@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-container {
+  display: flex;
+  gap: 30px;
+}
+
+.search-container {
+  width: 20%;
+  border: 1px solid #ddd;
+  display: flex;
+}
+
+#search-date {
+  border: none;
+  flex: 1;
+  padding: 4px 6px;
+  border-right: 1px solid #ddd;
+}
+
+#search-btn {
+  width: 50px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.invite-container {
+  width: 20%;
+  border: 1px solid #ddd;
+  display: flex;
+}
+
+#invite-user-id {
+  border: none;
+  flex: 1;
+  padding: 4px 6px;
+  border-right: 1px solid #ddd;
+}
+
+#invite-btn {
+  width: 50px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.attendance-table {
+  border-collapse: collapse;
+  text-align: left;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 7px 24px;
+}
+
+.attendance-table th {
+  background-color: rgb(242, 244, 249);
+  border-bottom: 1px solid #b6b6b6;
+  color: #6d6d6d;
+  font-size: 12px;
+}
+
+.attendance-table td {
+  border-bottom: 1px solid #d3d3d3;
+  font-size: 14px;
+}
+
+.attendance-true-tr > .is-attendance-td {
+  color: #3cb371;
+}
+
+.attendance-false-tr > .is-attendance-td {
+  color: #db4455;
+}
+
+.message-input {
+  border: 1px solid #ddd;
+  outline: none;
+  padding: 2px 0 2px 4px;
+}
+
+.attendance-true-btn {
+  background-color: rgb(224, 236, 224);
+}
+
+.attendance-true-btn:hover {
+  background-color: rgb(209, 255, 209);
+  cursor: pointer;
+}
+
+.attendance-false-btn {
+  background-color: rgb(255, 223, 223);
+}
+
+.attendance-false-btn:hover {
+  background-color: rgb(255, 193, 193);
+  cursor: pointer;
+}
